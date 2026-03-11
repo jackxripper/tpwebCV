@@ -1,0 +1,121 @@
+body {
+    background-image: url("../assets/1.gif");
+    background-size: cover;
+    background-color: black;
+}
+h1 {
+    color: rgb(0, 157, 255);
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+h2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;   
+}
+h3 {
+    color: rgb(255, 255, 255);
+    font-family: 'Ubuntu', sans-serif;   
+}
+p {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;   
+}
+.centeredb {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin: 100px;
+}
+.overviewingb {
+    border: none;
+    font-family: 'Ubuntu', sans-serif;
+    width: 200px;
+    height: 100px;
+    justify-content: center;
+    color: rgb(0, 157, 255);
+    gap: 40px;
+    background-color: transparent;
+    text-align: center;  
+    font-size: 30px;
+}
+.overviewingb:hover {
+    background-color: rgb(0, 157, 255);
+    color: black;
+    transition: 0.3s ease-in-out;
+}
+.footer{
+    position: fixed;      
+    bottom: 10px;         
+    width: 100%;          
+    text-align: center;   
+    color: #888;          
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+/*monp.html style section*/
+.title {
+    color: rgb(0, 157, 255);
+    text-align: center;
+    font-size: 20px;
+    color: rgb(254, 254, 254);
+    background-color: rgb(23, 62, 77);
+    font-family: 'Ubuntu', sans-serif;
+    padding: 30px 550px;
+    border-radius: 10px;
+    display: block;
+}
+.centernote{
+    margin-top: 50px;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
+}
+.viewsource {
+    border: none;
+    font-family: 'Ubuntu', sans-serif;
+    width: 200px;
+    height: 100px;
+    justify-content: center;
+    color: rgb(0, 157, 255);
+    gap: 40px;
+    background-color: transparent;
+    text-align: center;  
+    font-size: 30px;
+}
+.viewingsource{
+    display: flex;
+    justify-content: center;
+}
+:hover.viewsource {
+    background-color: rgb(0, 157, 255);
+    color: black;
+    transition: 0.3s ease-in-out;
+}
+/*projets.html + contact.html style section*/
+.title1 {
+    color: rgb(18, 99, 149);
+    text-align: center;
+    font-size: 20px;
+    color: rgb(254, 254, 254);
+    background-color: rgb(54, 117, 122);
+    font-family: 'Ubuntu', sans-serif;
+    padding: 30px 550px;
+    border-radius: 10px;
+    display: block;
+}
+/*contact.html view time style section*/
+.titlecontact {
+    color: rgb(0, 157, 255);
+    text-align: center;
+    font-size: 20px;
+    color: rgb(254, 254, 254);
+    background-color:rgb(23, 62, 77);
+    font-family: 'Ubuntu', sans-serif;
+    padding: 30px 550px;
+    border-radius: 10px;
+    display: block;
+    margin-top: 50px;
+}
